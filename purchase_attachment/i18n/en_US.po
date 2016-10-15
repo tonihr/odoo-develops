@@ -1,0 +1,32 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* purchase_attachment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-15 10:07+0000\n"
+"PO-Revision-Date: 2016-10-15 10:07+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: purchase_attachment
+#: view:purchase.order:purchase_attachment.purchase_view_attachment
+msgid "Attachemnt"
+msgstr "Attachemnt"
+
+#. module: purchase_attachment
+#: field:purchase.order,attachment_ids:0
+msgid "Attachment ids"
+msgstr "Attachment ids"
+
+#. module: purchase_attachment
+#: model:ir.model,name:purchase_attachment.model_purchase_order
+msgid "Purchase Order"
+msgstr "Purchase Order"
+
