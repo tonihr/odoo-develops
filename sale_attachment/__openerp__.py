@@ -8,6 +8,7 @@
     'website': '',
     'depends': [
         'sale',
+        'attachment_preview',
     ],
     'external_dependencies': {
         #'python': ['unidecode'],
