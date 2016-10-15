@@ -8,13 +8,14 @@
             <field name="inherit_id" ref="sale.view_order_form"/>
             <field name="arch" type="xml">
             	<xpath expr="//notebook" position="inside">
-            		 <page string="Adjuntos">
+            		 <page string="Attachemnt">
             		 	<field name="attachment_ids">
             		 		<tree>
             		 			<field name="name"/>
             		 			<field name="datas"/>
             		 		</tree>
             		 	</field>
+            		 	<!-- Trying preview from kanban view, bad result -->
 <!--             		  	<field name="attachment_ids" widget="many2many_kanban"/> -->
 <!-- 							<kanban>
 			                    <field name="file_type_icon"/>
