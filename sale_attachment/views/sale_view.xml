@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		
+		<record id="sale_view_attachment" model="ir.ui.view">
+            <field name="name">sale.order.attachment.form</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+            	<xpath expr="//notebook" position="inside">
+            		 <page string="Adjuntos">
+            		 	<field name="attachment_ids">
+            		 		<tree>
+            		 			<field name="name"/>
+            		 			<field name="datas"/>
+            		 		</tree>
+            		 	</field>
+<!--             		  	<field name="attachment_ids" widget="many2many_kanban"/> -->
+<!-- 							<kanban>
+			                    <field name="file_type_icon"/>
+			                    <field name="url"/>
+			                    <field name="name"/>
+			                    <field name="datas"/>
+			                    <templates>
+			                        <t t-name="kanban-box">
+			                            <div class="oe_kanban_global_click">
+			                                <div class="oe_kanban_vignette">
+			                                    <div class="oe_attachment">
+			                                        <div t-if="record.file_type_icon.value != 'webimage'">
+			                                            <img t-att-src="'/mail/static/src/img/mimetypes/' + record.file_type_icon.value + '.png'"/>
+			                                        </div>
+			                                        <div t-if="record.file_type_icon.value == 'webimage' and !record.url.value">
+			                                            <img t-att-src="kanban_image('ir.attachment', 'datas', record.id.value)"/>
+			                                        </div>
+			                                        <div t-if="record.file_type_icon.value and record.url.value">
+			                                            <img t-att-src="record.url.value"/>
+			                                        </div>
+			                                        <div class="oe_name">
+			                                            <field name="name"/>
+			                                        </div>
+			                                        <div class="oe_name">
+			                                            <img class="oe-binary-preview" src="/web/static/src/img/icons/gtk-print-preview.png" title="Previsualizar Contenido del archivo"/>
+			                                        </div>
+			                                    </div>
+			                                </div>
+			                            </div>
+			                        </t>
+			                    </templates>
+			                </kanban> -->
+            		 </page>
+            	</xpath>
+            </field>
+        </record>
+		
+	</data>
+</openerp>
