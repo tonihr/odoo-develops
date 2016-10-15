@@ -2,7 +2,7 @@
 {
     "name": "Attachment in sale order",
     "version": "8.0.0.1",
-    "author": "An",
+    "author": "Antonio Hermosilla anherro285@gmail.com",
     "license": "AGPL-3",
     "category": 'Unknow',
     'website': '',
