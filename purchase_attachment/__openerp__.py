@@ -19,5 +19,5 @@
         'views/purchase_view.xml',
     ],
     #'post_init_hook': '_assign_invoice_operation_keys',
-    'installable': True,
+    'installable': False,
 }
