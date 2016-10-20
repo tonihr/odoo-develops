@@ -1,0 +1,33 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* partner_purchase_line
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-20 08:58+0000\n"
+"PO-Revision-Date: 2016-10-20 08:58+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: partner_purchase_line
+#: model:ir.model,name:partner_purchase_line.model_res_partner
+msgid "Partner"
+msgstr "Partner"
+
+#. module: partner_purchase_line
+#: model:ir.actions.act_window,name:partner_purchase_line.act_res_partner_2_purchase_order_line
+#: model:ir.ui.view,arch_db:partner_purchase_line.partner_purchase_lines
+msgid "Purchase Lines"
+msgstr "Purchase Lines"
+
+#. module: partner_purchase_line
+#: model:ir.model.fields,field_description:partner_purchase_line.field_res_partner_purchase_lines_count
+msgid "Purchase lines count"
+msgstr "Purchase lines count"
+
