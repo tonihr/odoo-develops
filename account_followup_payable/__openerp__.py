@@ -17,5 +17,5 @@
         #'security/ir.model.access.csv',
     ],
     #'post_init_hook': '_assign_invoice_operation_keys',
-    'installable': True,
+    'installable': False,
 }
