@@ -2,7 +2,7 @@
 {
     "name": "partner sale lines",
     "version": "1.0",
-    "author": "An",
+    "author": "Antoni Hermosilla Rodrigo anherro285@gmail.com",
     "license": "AGPL-3",
     "category": 'Sale',
     'website': '',

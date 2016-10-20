@@ -3,3 +3,5 @@
 /.pydevproject
 /__init__.pyc
 .settings/
+models/*.pyc
+wizard/*.pyc
